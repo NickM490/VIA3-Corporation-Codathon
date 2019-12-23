@@ -1,0 +1,129 @@
+﻿<style>
+    .navigation{
+  padding-top:30px;
+  padding-bottom:30px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:1;
+}
+
+.navbar-right{
+  float:right;
+  padding-right:10%;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:10px;
+  color: #fff;
+  font-family:Arial;
+  font-weight:900;
+}
+
+.navbar-right a:hover{
+  text-decoration:underline;
+}
+.navbar-logo{
+  padding-left:10%;
+  font-family:Arial;
+  font-size:30px;
+  font-weight:bold;
+  text-decoration:none;
+  color:#fff; 
+  height: 75px;
+  width: 75px;
+}
+
+.video-container {
+z-index: -100;
+width:100%;
+height:100%;
+overflow:hidden;
+position:absolute;
+top:0;
+left:0;
+}
+
+#video-bg{
+  width:100%;
+  height: auto;
+ 
+}
+
+.portfolio-section{
+  margin-top:50%;
+}
+.tagline-left{
+  float:left;
+  width:50%;
+  text-align:center;
+}
+
+.tagline-right{
+  float:right;
+  width:50%;
+  text-align:center;
+}
+
+.tagline-video{
+  width:75%;
+}
+
+.tagline-right-text{
+ position:absolute;
+ margin-top:9%;
+ text-align:center;
+ margin-left:17%;
+font-family:Arial;
+ color:#fff;
+  width:290px;
+  font-size:40px;
+}
+
+.tagline-left-text{
+ position:absolute;
+ margin-top:9%;
+ text-align:center;
+ margin-left:11%;
+font-family:Arial;
+ color:#fff;
+  width:375px;
+  font-size:40px;
+}
+
+</style>
+
+
+
+<header>
+  <div class="header">
+    <nav class="navigation">
+      <a href=""><img src="~/Images/Capture.PNG" alt="" style="height: 75px; width: 75px; margin-left: 175px; margin-top: -15px;" ></a>
+      <div class="navbar-right">
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+
+    <div class="video-container">
+      <video autoplay loop muted id="video-bg" style="height: auto">
+
+        <source src="~/Images/Produce.MP4" type="video/mp4">
+
+      </video>
+    </div>
+  </div>
+</header>
+<div class="portfolio-section">
+ 
+</div>
+
+ 
+
+ <!-- <div class="video-container" style="position: fixed; z-index: -99; width: 100%; height: auto">
+        <video autoplay loop muted id="video-bg" loop autoplay controls playsinline frameborder="0" height="100%" width="100%"  -movflags -b 512k -r 30 -s 640x360
+            src="~/Images/Produce.MP4" type="video/mp4" preload="auto">
+        </video> 
+    </div> -->

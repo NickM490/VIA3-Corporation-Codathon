@@ -1,0 +1,355 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+    <link rel="stylesheet" href="~/css/site.css" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - VIA3_Online_School</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    </environment>
+    <environment exclude="Development">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+              crossorigin="anonymous"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+    </environment>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="css/azuremediaplayer.min.css" rel="stylesheet">
+    <script src="js/azuremediaplayer.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/Images/HomepageLogo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Curriculum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">VOD</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Calendar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Account</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<!-- ****************************************************************************************** -->
+
+<div class="row">
+
+
+
+
+
+
+
+
+<div class="bigwrap"  style="width: 150px;">
+
+
+<div class="body-wrap" style="width: 150px;">
+  <div class="" style="width: 500px;">
+    <nav class="navbar navbar-inverse" role="navigation" style="width: 500px">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="btn btn-dark" data-toggle="collapse" style=" height: 50px; width: 125px; "    data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          Navigator</button>
+          <a class="navbar-brand" href="#"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li class="dropdown" style="position: relative;">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">C# <b class="caret"></b></a>
+              <ul class="dropdown-menu" style="position: absolute; width: 100%;">
+                <li style="position: relative;"><a href="#">OverView</a></li>
+                <li style="position: relative;"><a href="#">Language Fundamentals</a></li>
+                <li style="position: relative;"><a href="#">ASP.NET Core</a></li>
+                <li style="position: relative;"><a href="#">ORMs</a></li>
+                <li style="position: relative;"><a href="#">Deployment</a></li>
+                <li class="divider"></li>
+              </ul>
+            </li>
+            <li style="position: relative;"><a href="#">Grades</a></li>
+            <li style="position: relative;"><a href="#">Forums</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right" style="position: absolute; width: 100%;">
+            <li style="position: relative;"><a href="#">Job Board</a></li>
+            <!-- <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li> -->
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </div>
+</div>
+
+</div>
+
+
+<div class="row text-left" style="height: 50px; padding-left: 45px; padding-top: 5px; ">
+    <h4 class="display-8">Current Progress in C#</h4>
+
+
+<div class="row progress" style="width: 75%; margin-left: 20px; height: 20px;">
+  <div class="progress-bar progress-bar-striped active." role="progressbar"
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%; ">
+    40%
+  </div>
+</div>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+  <!-- <div class="row rounded-lg overflow-hidden shadow" style="width: 300px;"> -->
+    <!-- Users box-->
+    <!-- <div class="col-3 px-0">
+      <div class="bg-white" style="width: 500px">
+
+        <div class="bg-gray px-4 py-2 bg-light">
+          <p class="h5 mb-0 py-1">Recent</p>
+        </div>
+
+        <div class="messages-box">
+          <div class="list-group rounded-0">
+            <a class="list-group-item list-group-item-action active text-white rounded-0">
+              <div class="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width="50" class="rounded-circle">
+                <div class="media-body ml-4">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">25 Dec</small>
+                  </div>
+                  <p class="font-italic mb-0 text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+              <div class="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width="50" class="rounded-circle">
+                <div class="media-body ml-4">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">14 Dec</small>
+                  </div>
+                  <p class="font-italic text-muted mb-0 text-small">Lorem ipsum dolor sit amet, consectetur. incididunt ut labore.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+              <div class="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width="50" class="rounded-circle">
+                <div class="media-body ml-4">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">9 Nov</small>
+                  </div>
+                  <p class="font-italic text-muted mb-0 text-small">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+              <div class="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width="50" class="rounded-circle">
+                <div class="media-body ml-4">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">18 Oct</small>
+                  </div>
+                  <p class="font-italic text-muted mb-0 text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+              <div class="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width="50" class="rounded-circle">
+                <div class="media-body ml-4">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">17 Oct</small>
+                  </div>
+                  <p class="font-italic text-muted mb-0 text-small">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+              <div class="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width="50" class="rounded-circle">
+                <div class="media-body ml-4">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">2 Sep</small>
+                  </div>
+                  <p class="font-italic text-muted mb-0 text-small">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+              <div class="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width="50" class="rounded-circle">
+                <div class="media-body ml-4">
+                  <div class="d-flex align-items-center justify-content-between mb-1">
+                    <h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">30 Aug</small>
+                  </div>
+                  <p class="font-italic text-muted mb-0 text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light rounded-0">
+              <div class="media"><img src="https://res.cloudinary.com/mhmd/image/upload/v1564960395/avatar_usae7z.svg" alt="user" width="50" class="rounded-circle">
+                <div class="media-body ml-4">
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                    <h6 class="mb-0">Jason Doe</h6><small class="small font-weight-bold">21 Aug</small>
+                  </div>
+                  <p class="font-italic text-muted mb-0 text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Chat Box-->
+
+
+<div class="row">
+
+
+    <div class="col-3 px-0" style="margin-top: 25px;">
+      <div class="px-4 py-5 chat-box bg-white" style="width: 285px;">
+        <!-- Sender Message-->
+        <div class="media w-50 mb-3">
+          <div class="media-body ml-3">
+            <div class="bg-light rounded py-2 px-3 mb-2">
+            </div>
+            <p class="small text-muted" id="messagesList"></p>
+            <!-- <ul id="messagesList"></ul> -->
+
+          </div>
+        </div>
+
+        <!-- Reciever Message-->
+        
+
+        <!-- Sender Message-->
+        
+
+        <!-- Reciever Message-->
+       
+        <!-- Sender Message-->
+        
+        <!-- Reciever Message-->
+        
+
+      </div>
+
+      <!-- Typing area -->
+      <form action="#" class="bg-light">
+        <div class="input-group">
+            <!-- User<input type="text" id="userInput" /> -->
+          <input type="text" placeholder="Type a message" aria-describedby="button-addon2" class="form-control rounded-0 border-0 py-4 bg-light" id="messageInput" style="width: 75px;">
+          <div class="input-group-append">
+            <input  type="submit" class="btn btn-link" id="sendButton" > <i class="fa fa-paper-plane"></i>
+          </div>
+        </div>
+      </form>
+
+    </div>
+<video id="azuremediaplayer" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoplay width="640" height="400" poster="" data-setup='{}' tabindex="0" style="border: 10px outset #ddd; margin-top: 80px; margin-left: 85px;">
+        <source src="http://via3media-usge.streaming.media.usgovcloudapi.net/7dba1721-3d7c-4236-8ddb-c586af73544f/470df95c-c87d-4f0b-9bcd-192ac24a6228.ism/manifest" type="application/vnd.ms-sstr+xml" />
+        <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
+    </video>
+  </div>
+</div>
+
+            <!-- <ul class="small text-muted" id="messagesList"></ul> -->
+
+<!-- ****************************************************************************************** -->
+
+
+
+
+</div>
+
+
+ <input type="hidden" id="userInput" />
+            <!-- <br /> -->
+            <!-- Message...<input type="text" id="messageInput" /> -->
+            <!-- <input type="button" id="sendButton" value="Send Message" /> -->
+
+
+
+
+
+
+<script src="/js/signalr/dist/browser/signalr.js"></script>
+<script src="/js/Chat.js"></script>
+
+
+
+<div class="container" style="width: 100px; margin-left: 0px">
+<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2019 - VIA3 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Careers</a>
+        </div>
+    </footer>
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+        </script>
+    </environment>
+    <script src="~/js/site.js" asp-append-version="true"></script> 
+
+
+</div>
+
+    </body>
